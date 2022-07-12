@@ -1,3 +1,10 @@
+# [1.1.0-develop.1](https://github.com/dwiyatci/semantic-release-fiddle/compare/1.0.1...1.1.0-develop.1) (2022-07-12)
+
+
+### Features
+
+* **dots:** every. single. dot. ([0874494](https://github.com/dwiyatci/semantic-release-fiddle/commit/0874494ef6bbcdc9428e0a0bb9dce36695b3e683))
+
 ## [1.0.1](https://github.com/dwiyatci/semantic-release-fiddle/compare/1.0.0...1.0.1) (2022-07-12)
 
 
