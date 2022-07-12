@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dwiyatci/semantic-release-fiddle/compare/1.0.0...1.0.1) (2022-07-12)
+
+
+### Bug Fixes
+
+* **hi:** I need a fix 'cause I'm going down ([c8412ae](https://github.com/dwiyatci/semantic-release-fiddle/commit/c8412ae177dbec23c58d5169b51279e8cd773d3b))
+
 ## [1.0.1-develop.1](https://github.com/dwiyatci/semantic-release-fiddle/compare/1.0.0...1.0.1-develop.1) (2022-07-12)
 
 
