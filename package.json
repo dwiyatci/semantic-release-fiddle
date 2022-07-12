@@ -9,8 +9,10 @@
     "start": "node index.js",
     "format": "prettier --write \"{**/*,*}.{js,ts,jsx,tsx,json,yml,yaml,xml,html,css,less,sass,scss,md,sh,graphql,gql}\"",
     "format:check": "prettier --list-different \"{**/*,*}.{js,ts,jsx,tsx,json,yml,yaml,xml,html,less,sass,scss,md,sh,graphql,gql}\"",
-    "smdr": "yarn sm --dry-run",
-    "sm": "semantic-release --no-ci"
+    "rldr": "yarn release:dry-run",
+    "release:dry-run": "yarn release --dry-run",
+    "rl": "yarn release",
+    "release": "semantic-release --no-ci"
   },
   "devDependencies": {
     "@semantic-release/changelog": "6.0.1",
