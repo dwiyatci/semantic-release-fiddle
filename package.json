@@ -1,0 +1,19 @@
+{
+  "name": "semantic-release-fiddle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Glenn Dwiyatcita",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write \"{**/*,*}.{js,ts,jsx,tsx,json,yml,yaml,xml,html,css,less,sass,scss,md,sh,graphql,gql}\"",
+    "format:check": "prettier --list-different \"{**/*,*}.{js,ts,jsx,tsx,json,yml,yaml,xml,html,less,sass,scss,md,sh,graphql,gql}\""
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1",
+    "prettier": "2.7.1",
+    "semantic-release": "19.0.3"
+  }
+}
