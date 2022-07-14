@@ -10,6 +10,11 @@
     "url": "https://github.com/dwiyatci/semantic-release-fiddle"
   },
   "scripts": {
+    "purge": "npx rimraf node_modules && yarn install",
+    "up:dedupe": "yarn up && yarn install:dedupe",
+    "up": "yarn upgrade-interactive --latest",
+    "install:dedupe": "yarn deduplicate && yarn",
+    "deduplicate": "npx yarn-deduplicate",
     "start": "node index.js",
     "format": "prettier --write \"{**/*,*}.{js,ts,jsx,tsx,json,yml,yaml,xml,html,css,less,sass,scss,md,sh,graphql,gql}\"",
     "format:check": "prettier --list-different \"{**/*,*}.{js,ts,jsx,tsx,json,yml,yaml,xml,html,less,sass,scss,md,sh,graphql,gql}\"",
