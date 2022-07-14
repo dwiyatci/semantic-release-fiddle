@@ -1,10 +1,14 @@
 {
   "name": "semantic-release-fiddle",
-  "version": "1.0.1",
+  "version": "1.1.0-develop.2",
   "main": "index.js",
   "author": "Glenn Dwiyatcita",
   "license": "MIT",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwiyatci/semantic-release-fiddle"
+  },
   "scripts": {
     "start": "node index.js",
     "format": "prettier --write \"{**/*,*}.{js,ts,jsx,tsx,json,yml,yaml,xml,html,css,less,sass,scss,md,sh,graphql,gql}\"",
@@ -12,7 +16,7 @@
     "rldr": "yarn release:dry-run",
     "release:dry-run": "yarn release --dry-run",
     "rl": "yarn release",
-    "release": "semantic-release --no-ci"
+    "release": "GITHUB_TOKEN=$SRF_REPO_GH_TOKEN && semantic-release --no-ci"
   },
   "devDependencies": {
     "@semantic-release/changelog": "6.0.1",
