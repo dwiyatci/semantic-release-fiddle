@@ -1,6 +1,6 @@
 tagFormat: '${version}'
 branches:
-  - name: release
+  - name: main
   - name: develop
     prerelease: true
 plugins:
