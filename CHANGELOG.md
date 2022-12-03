@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/dwiyatci/semantic-release-fiddle/compare/1.2.0...1.2.1) (2022-12-03)
+
+
+### Reverts
+
+* Revert "fix(backmerge): try `merge` as `backmergeStrategy`" ([0b60090](https://github.com/dwiyatci/semantic-release-fiddle/commit/0b600905d2638f16b8e32f2ad0f92da13a93e6fe))
+
 ## [1.2.1-develop.1](https://github.com/dwiyatci/semantic-release-fiddle/compare/1.2.0...1.2.1-develop.1) (2022-12-03)
 
 
