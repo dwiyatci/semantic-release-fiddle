@@ -10,23 +10,25 @@
     "url": "https://github.com/dwiyatci/semantic-release-fiddle"
   },
   "scripts": {
-    "purge": "npx rimraf node_modules && yarn install",
-    "up:dedupe": "yarn up && yarn install:dedupe",
-    "up": "yarn upgrade-interactive --latest",
-    "install:dedupe": "yarn deduplicate && yarn",
-    "deduplicate": "npx yarn-deduplicate",
+    "purge": "pnpm dlx rimraf node_modules && pnpm i",
+    "reinstall:dedupe": "pnpm i && pnpm dedupe && pnpm i",
+    "dedupe": "pnpm dlx pnpm-deduplicate",
+    "upgr": "pnpm upgrade --recursive --latest --interactive",
     "start": "node index.js",
     "format": "prettier --write \"{**/*,*}.{js,ts,jsx,tsx,json,yml,yaml,xml,html,css,less,sass,scss,md,sh,graphql,gql}\"",
     "format:check": "prettier --list-different \"{**/*,*}.{js,ts,jsx,tsx,json,yml,yaml,xml,html,less,sass,scss,md,sh,graphql,gql}\"",
-    "rldr": "yarn release:dry-run",
-    "release:dry-run": "yarn release --dry-run",
-    "rl": "yarn release",
+    "rldr": "pnpm release:dry-run",
+    "release:dry-run": "pnpm release --dry-run",
+    "rl": "pnpm release",
     "release": "GITHUB_TOKEN=$SRF_REPO_GH_TOKEN && semantic-release --no-ci"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/changelog": "6.0.2",
     "@semantic-release/git": "10.0.1",
-    "prettier": "2.7.1",
-    "semantic-release": "19.0.3"
+    "prettier": "2.8.0",
+    "semantic-release": "19.0.5"
+  },
+  "volta": {
+    "node": "18.0.0"
   }
 }
