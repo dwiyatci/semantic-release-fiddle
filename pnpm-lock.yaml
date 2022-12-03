@@ -1,12 +1,14 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@saithodev/semantic-release-backmerge': 2.1.2
   '@semantic-release/changelog': 6.0.2
   '@semantic-release/git': 10.0.1
   prettier: 2.8.0
   semantic-release: 19.0.5
 
 devDependencies:
+  '@saithodev/semantic-release-backmerge': 2.1.2
   '@semantic-release/changelog': 6.0.2_semantic-release@19.0.5
   '@semantic-release/git': 10.0.1_semantic-release@19.0.5
   prettier: 2.8.0
@@ -177,6 +179,20 @@ packages:
     resolution: {integrity: sha512-65/TPpOJP1i3K4lBJMnWqPUJ6zuOtzhtagDvydAWbEXpbFYA0oMKKyLb95NFZZP0lSh/4b6K+DQlzvYQJQQePg==}
     dependencies:
       '@octokit/openapi-types': 14.0.0
+    dev: true
+
+  /@saithodev/semantic-release-backmerge/2.1.2:
+    resolution: {integrity: sha512-fNd8cmijjFIMp4GcdTAcug/7tr4k+8bAyvSsbLOnfyKCWyq42lg14vFZOryLiyLUAe8gpPlI7XzDPWyFTR5zug==}
+    dependencies:
+      '@semantic-release/error': 3.0.0
+      aggregate-error: 3.1.0
+      debug: 4.3.4
+      execa: 5.1.1
+      lodash: 4.17.21
+      semantic-release: 19.0.5
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
     dev: true
 
   /@semantic-release/changelog/6.0.2_semantic-release@19.0.5:
