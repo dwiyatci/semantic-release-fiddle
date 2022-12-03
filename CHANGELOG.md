@@ -1,3 +1,10 @@
+## [1.2.4-develop.1](https://github.com/dwiyatci/semantic-release-fiddle/compare/1.2.3...1.2.4-develop.1) (2022-12-03)
+
+
+### Bug Fixes
+
+* remove unneeded `&&` ([38bf9c8](https://github.com/dwiyatci/semantic-release-fiddle/commit/38bf9c82ff3a5d30e8ced9e8563db4d881beac93))
+
 ## [1.2.3](https://github.com/dwiyatci/semantic-release-fiddle/compare/1.2.2...1.2.3) (2022-12-03)
 
 
