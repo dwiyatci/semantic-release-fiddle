@@ -20,7 +20,7 @@
     "rldr": "pnpm release:dry-run",
     "release:dry-run": "pnpm release --dry-run",
     "rl": "pnpm release",
-    "release": "GITHUB_TOKEN=$SRF_REPO_GH_TOKEN && semantic-release --no-ci"
+    "release": "GITHUB_TOKEN=$SRF_REPO_GH_TOKEN semantic-release --no-ci"
   },
   "devDependencies": {
     "@saithodev/semantic-release-backmerge": "2.1.2",
