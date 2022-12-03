@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/dwiyatci/semantic-release-fiddle/compare/1.2.1...1.2.2) (2022-12-03)
+
+
+### Bug Fixes
+
+* **backmerge:** try without the plugin once again ([41fb3f0](https://github.com/dwiyatci/semantic-release-fiddle/commit/41fb3f096fb39be2325abe17ac090b8574b4ecab))
+
 ## [1.2.2-develop.1](https://github.com/dwiyatci/semantic-release-fiddle/compare/1.2.1...1.2.2-develop.1) (2022-12-03)
 
 
