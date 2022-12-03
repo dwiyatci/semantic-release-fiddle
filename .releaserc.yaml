@@ -13,5 +13,4 @@ plugins:
   - - '@saithodev/semantic-release-backmerge'
     - branches:
         - develop
-      backmergeStrategy: merge
       allowSameBranchMerge: true
