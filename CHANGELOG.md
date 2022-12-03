@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/dwiyatci/semantic-release-fiddle/compare/1.2.2...1.2.3) (2022-12-03)
+
+
+### Reverts
+
+* Revert "fix(backmerge): try without the plugin once again" ([cec7cd3](https://github.com/dwiyatci/semantic-release-fiddle/commit/cec7cd398ffe438ed9bca289e3dc692ef80f07f8))
+
 ## [1.2.3-develop.1](https://github.com/dwiyatci/semantic-release-fiddle/compare/1.2.2...1.2.3-develop.1) (2022-12-03)
 
 
