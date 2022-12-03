@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-fiddle",
-  "version": "1.2.1",
+  "version": "1.2.2-develop.1",
   "main": "index.js",
   "author": "Glenn Dwiyatcita",
   "license": "MIT",
