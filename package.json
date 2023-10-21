@@ -12,7 +12,6 @@
   "scripts": {
     "purge": "pnpm dlx rimraf node_modules && pnpm i",
     "reinstall:dedupe": "pnpm i && pnpm dedupe && pnpm i",
-    "dedupe": "pnpm dlx pnpm-deduplicate",
     "upgr": "pnpm upgrade --recursive --latest --interactive",
     "start": "node index.js",
     "format": "prettier --write \"{**/*,*}.{js,ts,jsx,tsx,json,yml,yaml,xml,html,css,less,sass,scss,md,sh,graphql,gql}\"",
@@ -23,13 +22,13 @@
     "release": "GITHUB_TOKEN=$SRF_REPO_GH_TOKEN semantic-release --no-ci"
   },
   "devDependencies": {
-    "@saithodev/semantic-release-backmerge": "2.1.2",
-    "@semantic-release/changelog": "6.0.2",
+    "@saithodev/semantic-release-backmerge": "3.2.1",
+    "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "prettier": "2.8.0",
-    "semantic-release": "19.0.5"
+    "prettier": "3.0.3",
+    "semantic-release": "21.1.2"
   },
   "volta": {
-    "node": "18.0.0"
+    "node": "21.0.0"
   }
 }
