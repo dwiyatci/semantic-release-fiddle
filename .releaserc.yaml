@@ -11,6 +11,6 @@ plugins:
   - '@semantic-release/git'
   - '@semantic-release/github'
   - - '@saithodev/semantic-release-backmerge'
-    - branches:
+    - backmergeBranches:
         - develop
       allowSameBranchMerge: true
