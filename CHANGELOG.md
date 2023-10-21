@@ -1,3 +1,10 @@
+# [1.3.0-develop.1](https://github.com/dwiyatci/semantic-release-fiddle/compare/1.2.4-develop.1...1.3.0-develop.1) (2023-10-21)
+
+
+### Features
+
+* upgrade to SR v21 and stuff ([f73cc11](https://github.com/dwiyatci/semantic-release-fiddle/commit/f73cc116e1f0a986e38950bd82b7e8fe92290b39))
+
 ## [1.2.4-develop.1](https://github.com/dwiyatci/semantic-release-fiddle/compare/1.2.3...1.2.4-develop.1) (2022-12-03)
 
 
